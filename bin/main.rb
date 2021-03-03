@@ -32,4 +32,3 @@ score = Calculator.assign_score
 # ASSIGN APPROPRIATE MESSAGE
 message = Calculator.assign_message(username, partner_name, score)
 puts message
-
