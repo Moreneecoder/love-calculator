@@ -32,4 +32,3 @@ message = Calculator.assign_message(score)
 
 #  DISPLAY OUPUT
 puts Calculator.output(score, message)
-
