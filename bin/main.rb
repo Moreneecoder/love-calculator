@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+require './lib/calculator'
+
 puts
 puts '################  LOVE CALCULATOR     #####################'
 puts
@@ -28,7 +30,6 @@ end
 score = Calculator.assign_score
 
 # ASSIGN APPROPRIATE MESSAGE
-message = Calculator.assign_message(score)
+message = Calculator.assign_message(username, partner_name, score)
+puts message
 
-#  DISPLAY OUPUT
-puts Calculator.output(score, message)

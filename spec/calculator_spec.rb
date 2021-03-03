@@ -1,6 +1,5 @@
 # rubocop:disable Style/MixinUsage
 require './lib/calculator'
-include Calculator
 
 describe Calculator do
   describe '#assign_score' do
