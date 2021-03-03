@@ -8,8 +8,8 @@ describe Calculator do
     end
 
     it 'returns 100 if first argument appear in opposing cheat names arrays' do
-        expect(Calculator.assign_score('Chichi', 'John')).to eql(100)
-      end
+      expect(Calculator.assign_score('Chichi', 'John')).to eql(100)
+    end
   end
 
   describe '#assign_message' do
