@@ -25,4 +25,11 @@ while partner_name.empty?
 end
 
 #   ASSIGN A RANDOM SCORE FOR PARTNERS
+score = Calculator.assign_score
+
+# ASSIGN APPROPRIATE MESSAGE
+message = Calculator.assign_message(score)
+
+#  DISPLAY OUPUT
+puts Calculator.output(score, message)
 
