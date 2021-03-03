@@ -3,7 +3,7 @@ require './lib/calculator'
 describe Calculator do
   let(:score) { rand(60..70) }
   describe '#assign_score' do
-    it 'returns a random integer between 1 and 100' do
+    it 'takes two arguments and returns a random integer between 1 and 100' do
       expect(Calculator.assign_score).to be_an(Integer)
     end
   end

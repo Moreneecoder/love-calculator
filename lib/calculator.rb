@@ -1,8 +1,16 @@
 # rubocop:disable Metrics/CyclomaticComplexity, Metrics/PerceivedComplexity
 
 module Calculator
-  def self.assign_score
-    rand(1..100)
+  def self.assign_score(username, partner_name)
+    cheat_usernames = %w[john ade chukwu audu]
+    cheat_partner_names = %w[jane oyin chichi fatima]
+
+    if (cheat_usernames.include?(username.downcase) && cheat_partner_names.include?(partner_name.downcase)) ||
+       cheat_partner_names.include?(username.downcase) && cheat_usernames.include?(partner_name.downcase)
+      100
+    else
+      rand(1..99)
+    end
   end
 
   def self.assign_message(username, partner_name, score)
