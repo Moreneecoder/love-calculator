@@ -4,8 +4,12 @@ describe Calculator do
   let(:score) { rand(60..70) }
   describe '#assign_score' do
     it 'takes two arguments and returns a random integer between 1 and 100' do
-      expect(Calculator.assign_score).to be_an(Integer)
+      expect(Calculator.assign_score('Foo', 'Bar')).to be_an(Integer)
     end
+
+    it 'returns 100 if first argument appear in opposing cheat names arrays' do
+        expect(Calculator.assign_score('Chichi', 'John')).to eql(100)
+      end
   end
 
   describe '#assign_message' do
