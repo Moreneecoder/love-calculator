@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+require './lib/calculator'
+
 puts
 puts '################  LOVE CALCULATOR     #####################'
 puts
@@ -25,10 +27,8 @@ while partner_name.empty?
 end
 
 #   ASSIGN A RANDOM SCORE FOR PARTNERS
-score = Calculator.assign_score
+score = Calculator.assign_score(username, partner_name)
 
 # ASSIGN APPROPRIATE MESSAGE
-message = Calculator.assign_message(score)
-
-#  DISPLAY OUPUT
-puts Calculator.output(score, message)
+message = Calculator.assign_message(username, partner_name, score)
+puts message
