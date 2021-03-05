@@ -30,7 +30,7 @@ To set up a local version of this project, a collection of steps have been put t
 
 - Rubocop: This is a tool for checking code quality and ensuring they meet the requirements. Don’t worry about this if you’re not a developer. Microverse provides a wonderful setup guide for [rubocop here](https://github.com/microverseinc/linters-config/tree/master/ruby).
 
-- RSpec: This is a tool for testing the effectiveness of the programs logic at every step. Again, don’t worry about this if you’re not a developer. To set up RSpec:
+- RSpec: This is a tool for testing the effectiveness of the program's logic at every step. Again, don’t worry about this if you’re not a developer. To set up RSpec:
   - run `gem install rspec` in your terminal. This should install rspec globally on your local machine.
   - run `rspec --version`. This should display your rspec version if successfully installed.
   - run `rspec` to see passing and failing tests.
