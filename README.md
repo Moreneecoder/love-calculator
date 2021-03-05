@@ -73,3 +73,29 @@ To get the game running, follow the instructions below:
   ![](https://user-images.githubusercontent.com/38987207/110054267-19022900-7d5b-11eb-8ad4-2c3e7df68f68.png)
   
  - That's it! Happy Testing!
+
+## Author(s)
+
+👤 ** Morenikeji Fuad Bello**
+
+- GitHub: [@Moreneecoder](https://github.com/Moreneecoder)
+- Twitter - [@mo_bello19](https://twitter.com/mo_bello19)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Moreneecoder/love-calculator/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- [Micoverse](https://microverse.org) for the rubocop setup link
+- [Commander Coriander](https://commandercoriander.net/) for the ruby executable link
+
+## 📝 License
+
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
