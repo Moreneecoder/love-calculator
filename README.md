@@ -4,7 +4,7 @@ A simple ruby program for randomly grading the affection level between two partn
 ![](https://user-images.githubusercontent.com/38987207/110028621-c19c9280-7d33-11eb-8c86-39a5f5a615d8.png)
 
 ### About The Program
-The program is a game of chance that takes the names of two partner's and assign them a random love grade. It then displays an accompanying message based n the assigned grade. For instance, in the image above, the user enters their name and their partner's name, they got a love grade of 90% and their display is as follow: *Jackie Chan and Angie Jolie, your love is 90% strong.
+The program is a game of chance that takes the names of two partner's and assign them a random love grade. It then displays an accompanying message based on the assigned grade. For instance, in the image above, the user enters their name and their partner's name, they got a love grade of 90% and their display is as follow: *Jackie Chan and Angie Jolie, your love is 90% strong.
 Awwwn... You both seem to always be in each other's thoughts. Never let go!*
 
 ## Built With
