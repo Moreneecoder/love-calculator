@@ -1,5 +1,5 @@
 # love-calculator
-A simple ruby program for randomly grading the affection level between two partners. This project is part of the programming tasks for beginners series.
+> A simple ruby program for randomly grading the affection level between two partners. This project is part of the [programming tasks for beginners series](https://github.com/Moreneecoder/programming-projects-for-beginners).
 
 ![](https://user-images.githubusercontent.com/38987207/110028621-c19c9280-7d33-11eb-8c86-39a5f5a615d8.png)
 
